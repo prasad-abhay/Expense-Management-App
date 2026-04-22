@@ -1,4 +1,5 @@
-const host = process.env.backend_uri || "http://localhost:4000";
+const host = process.env.REACT_APP_BACKEND_URL;
+
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
 export const loginAPI = `${host}/api/auth/login`;
