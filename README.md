@@ -1,51 +1,53 @@
-
 # Expense Management System using MERN Stack
 
-### Live Website: https://main.d1sj7cd70hlter.amplifyapp.com/
-
-### Vercel Link: https://expense-tracker-app-three-beryl.vercel.app/
+### Live Website: [click here](https://main.d1sj7cd70hlter.amplifyapp.com/)
 
 ## Project Description:
 
-    The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
+The Expense Management System is a web-based application designed to assist users in tracking and managing their daily expenses. This system is built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to create a scalable, responsive, and user-friendly application.
 
-## Objectives:
-
-    1. Simplify expense tracking for individuals and organizations.
-
-    2. Provide detailed insights into spending patterns to enable better financial management.
-
-    3. Offer a platform for users to create, update, and delete expenses and categories.
-
-    4. Generate comprehensive reports based on user-defined time periods and categories.
-
-## Features
+## 🚀 Features
 
 
-- User Authentication and Authorization:
+### 🔐 Authentication & Authorization
 
-    Allow users to sign up and log in to their personal accounts using secure authentication mechanisms.
-Implement role-based access control for administrative tasks.
+* User signup and login system
+* Secure authentication using JWT
+* Protected routes with middleware
 
-- Expense and Category Management:
+### 💸 Expense Management
 
-    Enable users to create, update, and delete expense entries and categories.
-Track expenses by date, category, and description.
-Support attaching receipts or other relevant documents to expense entries.
+* Add, update, and delete expenses
+* Categorize expenses
+* Track by date, type, and description
 
-- Dashboard and Reporting:
+### 📊 Dashboard & Reports
 
-    Provide a visual dashboard displaying an overview of the user's expenses, including total expenses, expenses by category, and recent transactions.
-
-    Generate reports based on selected date ranges and categories, displaying pie charts and bar graphs to help users understand their spending patterns.
+* Visual summary of total expenses
+* Category-wise expense distribution
+* Interactive charts (Pie & Bar graphs)
+* Filter by date range and category
     
 
-- Responsive User Interface:
+### 📱 Responsive UI
 
-    Design a clean, responsive user interface that works seamlessly across desktop, tablet, and mobile devices.
-    
-    Utilize React.js for building reusable UI components and managing state effectively.
+* Fully responsive design (Mobile + Desktop)
+* Clean and modern interface using React
+* Reusable components for scalability
 
+## 📂 Project Structure
+```
+Expense-Tracker-App/
+│
+├── frontend/        # React frontend
+├── backend/         # Node/Express backend
+│   ├── config/      # Environment configs
+│   ├── models/      # Mongoose schemas
+│   ├── routes/      # API routes
+│   └── controllers/ # Business logic
+│
+└── README.md
+```
 
 ## Technical Architecture:
 
@@ -78,7 +80,7 @@ Support attaching receipts or other relevant documents to expense entries.
 Clone the project
 
 ```bash
-  git clone https://github.com/Priyanshu9898/Expense-Tracker-App
+  git clone https://github.com/prasad-abhay/Expense-Management-App
 ```
 
 Go to the project directory
@@ -137,43 +139,4 @@ create config folder and add config.env file in it and all all env variables the
 
 **Database:** MongoDB
 
-
-## Screenshots
-
-![App Screenshot](https://i.postimg.cc/6qLR3WNt/Expense-Management-System-Brave-19-04-2023-11-08-53.png)
-
-![App Screenshot](https://i.postimg.cc/DynLNXqZ/Expense-Management-System-Brave-19-04-2023-11-08-59.png)
-
-![App Screenshot](https://i.postimg.cc/Dy6L3wgc/Expense-Management-System-Brave-19-04-2023-11-15-46.png)
-
-![App Screenshot](https://i.postimg.cc/13YF47bn/Expense-Management-System-Brave-19-04-2023-11-15-54.png)
-
-![App Screenshot](https://i.postimg.cc/rwpWV2Z2/Expense-Management-System-Brave-19-04-2023-11-16-01.png)
-
-## Badges
-
-Add badges from somewhere like: [shields.io](https://shields.io/)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-
-
-
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/Priyanshu9898/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyanshumalaviya/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Priyanshu2281)
-[![Medium](https://img.shields.io/badge/medum-1DA1F2?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@priyanshumalaviya9210)
-
-## Demo
-
-Insert gif or link to demo
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
